@@ -10,4 +10,6 @@ mkdir ..\build
 mkdir ..\build\lib
 move libcrypto.lib ..\build\lib\
 move libssl.lib ..\build\lib\
+move providers\fips.dll ..\build\lib\
+move providers\legacy.dll ..\build\lib\
 move include ..\build\include
